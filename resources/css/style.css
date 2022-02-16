@@ -1,0 +1,107 @@
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Roboto";
+    font-size: 20px;
+    scroll-padding-top: 125px; /* height of sticky header */
+    color:white;
+  }
+
+
+  
+  header,
+  section,
+  footer {
+    width: 100%;
+  }
+
+/*Header*/
+
+.header-banner{
+  height: auto;
+  background-image: url('../img/main-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.logo a{
+  font-size: 2em;
+  color:black;
+}
+
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 250px;
+
+  }
+
+  .menu-container a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .menu-items ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .menu-items li a{
+    margin-right: 1em;
+    font-size: 1em; 
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  /* Top Banner */
+
+  .jumbotron{
+      margin-top: 2em;
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .main-title{
+      font-size:2em;
+      background-color: #264653;
+      opacity: 0.5;
+      padding: 2.5em;
+      overflow: hidden;
+  }
+
+  
+  .main-title h1{
+    animation: 1s slide-right 2s forwards;
+      transform:translateX(-150%);
+  
+  }
+
+  .main-title h2{
+    animation: 2s slide-right 3.5s forwards;
+      transform:translateX(-150%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+
