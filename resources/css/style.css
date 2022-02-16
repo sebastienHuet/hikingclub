@@ -80,25 +80,25 @@
   }
 
   .main-title{
-      font-size:2em;
+      font-size:1.6em;
       background-color: #264653;
       opacity: 0.5;
       padding: 2.5em;
       overflow: hidden;
       letter-spacing: 0.05em;
-      line-height: 1.5em;
+      line-height: 2em;
 
   }
 
   
-  .main-title h1{
+  .title-animation-first{
     animation: 1s slide-right 2s forwards;
       transform:translateX(-150%);
     
   
   }
 
-  .main-title h2{
+  .title-animation-second{
     animation: 2s slide-right 3.5s forwards;
       transform:translateX(-150%);
   }
@@ -109,4 +109,46 @@
     }
   }
 
+  /*Section About Us*/
+
+  .about{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .about-style{
+    margin-left: 5em;
+    width: 25em;
+  }
+
+  .about-style h2{
+    line-height: 2em;
+  }
+
+   /*Section What we Do*/
+   .what-we-do{
+    height: 550px;
+   }
+
+
+    
+  .serrated-border {
+        border: 10px solid transparent;
+        border-width: 10px 0;
+        background-color: #B0B0B0	;
+        background-color: hsla(0, 0%, 0%, 0);
+        background-image:
+            linear-gradient(#B0B0B0	, #32557f),
+            linear-gradient(to bottom right, transparent 50.5%, #B0B0B0	 50.5%),
+            linear-gradient(to bottom left, transparent 50.5%, #B0B0B0	 50.5%),
+            linear-gradient(to top right, transparent 50.5%, #32557f 50.5%),
+            linear-gradient(to top left, transparent 50.5%, #32557f 50.5%);
+        background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+        background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+        background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+        background-clip: padding-box, border-box, border-box, border-box, border-box;
+        background-origin: padding-box, border-box, border-box, border-box, border-box;
+    }
 
