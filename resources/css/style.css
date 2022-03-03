@@ -111,30 +111,36 @@
 
   /*Section About Us*/
 
-  .about{
+  .section-height{
     height: 550px;
     display: flex;
     align-items: center;
+  }
+
+  .title-color{
     color: black;
   }
 
-  .about-style{
+  .content-style{
     margin-left: 5em;
     width: 25em;
+    display: flex;
+    align-items: center;
   }
 
-  .about-style h2{
+  .content-style h2{
     line-height: 2em;
+    margin-right: 2em;
   }
 
    /*Section What we Do*/
    .what-we-do{
-    height: 550px;
+  
    }
 
 
     
-  .serrated-border {
+  .serrated-border-blue {
         border: 10px solid transparent;
         border-width: 10px 0;
         background-color: #B0B0B0	;
@@ -151,4 +157,38 @@
         background-clip: padding-box, border-box, border-box, border-box, border-box;
         background-origin: padding-box, border-box, border-box, border-box, border-box;
     }
+
+  /*Trail section*/ 
+  .serrated-border-brown {
+    border-top: 10px solid transparent;
+    border-width: 10px 0;
+    background-color: #7c5d5d	;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image:
+        linear-gradient(#32557f	, #7c5d5d),
+        linear-gradient(to bottom right, transparent 50.5%, #32557f  50.5%),
+        linear-gradient(to bottom left, transparent 50.5%, #32557f 	 50.5%),
+        linear-gradient(to top right, transparent 50.5%, #7c5d5d 50.5%),
+        linear-gradient(to top left, transparent 50.5%, #7c5d5d	 50.5%);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+    background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
+}
+
+/*Footer*/
+footer{
+  height: 100px;
+  background-color: #7c5d5d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+footer p{
+  margin: 0 1em 1em 0;
+}
+
+    
 
