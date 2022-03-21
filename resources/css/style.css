@@ -136,10 +136,6 @@
 
 
    /*Section What we Do*/
-   .what-we-do{
-  
-   }
-
 
     
   .serrated-border-blue {
@@ -177,6 +173,31 @@
     background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
     background-clip: padding-box, border-box, border-box, border-box, border-box;
     background-origin: padding-box, border-box, border-box, border-box, border-box;
+}
+
+.trail-main{
+  display: flex;
+}
+
+.trail-box{
+  width: 17.5em;
+  height: 17.5em;
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trail-img{
+  width: 17em;
+  height: 10.5em;
+  border: 1px solid black;
+}
+
+.trail-desc p{
+  margin-top: 1em;
+  font-size: 0.75em;
+  text-align: justify;
 }
 
 /*Footer*/
