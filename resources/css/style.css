@@ -92,14 +92,14 @@
 
   
   .title-animation-first{
-    animation: 1s slide-right 2s forwards;
+    animation: 0.5s slide-right 1s forwards;
       transform:translateX(-150%);
     
   
   }
 
   .title-animation-second{
-    animation: 2s slide-right 3.5s forwards;
+    animation: 1.5s slide-right 2s forwards;
       transform:translateX(-150%);
   }
   
@@ -126,12 +126,14 @@
     width: 25em;
     display: flex;
     align-items: center;
+
   }
 
   .content-style h2{
     line-height: 2em;
     margin-right: 2em;
   }
+
 
    /*Section What we Do*/
    .what-we-do{
