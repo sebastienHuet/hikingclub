@@ -15,6 +15,7 @@
   section,
   footer {
     width: 100%;
+    margin: 0 auto;
   }
 
 
@@ -38,7 +39,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-   
     height: 250px;
   
 
@@ -216,8 +216,7 @@ footer p{
 }
 
 /*Media Query*/
-@media screen and (max-width:500px){
-
+@media screen and (max-width:950px){
   .menu-container {
     height: 350px;
   }
@@ -240,12 +239,17 @@ footer p{
 
   .trail-main{
     flex-direction: column;
+    
   }
 
+
+
   .trail-img{
-    width: 20em;
+    width: 70em;
     height: 20em;
+
   }
 }
+
 
 
